@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "engines": {
-    "node": ">=20.9.0"
+    "node": "22.x"
+  },
+  "allowScripts": {
+    "unrs-resolver@1.12.2": true
   },
   "scripts": {
     "dev": "next dev",
